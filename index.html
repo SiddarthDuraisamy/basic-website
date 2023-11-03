@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OTT STREAMING PAGE</title>
+	<style type="text/css">
+		body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+		header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+         h1 {
+            font-size: 27px;
+        }
+
+         main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        img {
+        	height: 300px;
+        }
+
+        h2 {
+        	text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        form {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+        }
+
+        label, input {
+          
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+
+        .audio-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>STREAM HOME<h1>
+	</header>
+
+	<main>
+		<section>
+			<h2> Game of Thrones </h2>
+			<img src="https://as2.ftcdn.net/v2/jpg/02/58/62/87/1000_F_258628738_Qw2w55W4HCZEyH1NmPwEIpkoVZnEoxs4.jpg">
+			<img src="https://as2.ftcdn.net/v2/jpg/02/83/06/95/1000_F_283069532_2zi0XkhKhBUgh9S5yaCV8cXClmDd31Tv.jpg">
+			<p> Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin, the first of which is A Game of Thrones. The show premiered on HBO in the United States on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons. The series is known for its violence, political intrigue, plots, murders, and sexual desires. The Starks' and Lannisters' conflict is a central component of the novel, and the reader receives points of view from both sides. The show centers on the violence of war, and it should not be watched by those with weak stomachs. But it's not all about death in the world of Westeros. Love and family, duty, and honor play major roles in conflicts that arise in the story arc, and qualities traditionally categorized as noble oppose each other in resolution. </p>
+		</section>
+
+        <section>
+            <h2>Cast</h2>
+            <div>
+                <ul>
+                    <li>Emilia CLarke as Daenerys Targaryen</li>
+                    <li>Lena Headey as Cersei Lannister</li>
+                    <li>Nikolaj Coster-Waldau as Jaime Lannister</li>
+                    <li>Alfie Allen as Theon Greyjoy</li>
+                    <li>Peter Dinklage as Tyrion Lannister</li>
+                    <li>Sophie Turner as Sansa Stark</li>
+                    <li>Iain Glen as Jorah Mormont</li>
+                    <li>Conleth as Lord Varys</li>
+                    <li>Kit Harington as Jon Snow</li>
+                    <li>Maisie Williams as Arya Stark</li>
+                    <li>John Bradley as Samwell Tarly</li>
+                    <li>Liam Cunningham as Davos Seaworth</li>
+                </ul>
+            </div>
+        </section>
+
+
+
+
+
+		<section>
+			<h2> Clips of GOT </h2>
+			<video width="1380" height="400" controls>
+				<source src="D:\spotknack AV\got.mp4" type="video/mp4">
+	   		  Your browser does not support the video tag.
+			</video>
+            <div class="audio-container">
+                <audio controls>
+                    <source src="D:\spotknack AV\Got Theme.mp3" type="audio/mpeg"/>
+                </audio>
+            </div>
+
+		</section>
+
+		<section>
+			<h2> Seasons and Episodes </h2>
+			<table>
+                <tr>
+                    <th>Season 1</th>
+                    <th>10</th>
+                </tr>
+                <tr>
+                    <td>Season 2</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Season 3</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Season 4</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Season 5</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Season 6</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Season 7</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Season 8</td>
+                    <td>6</td>
+                </tr>
+            </table>
+		</section>
+
+		 <section>
+            <h2>Search for Content</h2>
+            <form action="search.php" method="get">
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="search" placeholder="Search for movies and shows" required><br>
+
+                <label>Categories:</label><br>
+                <input type="radio" id="movies" name="Categories" value="Sci-fi">
+                <label>Sci-fi</label>
+                <input type="radio" id="movies" name="Categories" value="Horror">
+                <label>Horror</label>
+                <input type="radio" id="movies" name="Categories" value="Thriller">
+                <label>Thriller</label>
+                <input type="radio" id="movies" name="Categories" value="Romance">
+                <label>Romance</label>
+                <input type="radio" id="movies" name="Categories" value="Stand UP">
+                <label>Stand-Up</label><br>
+				<label for="shows">Languages:</label><br>
+                <input type="checkbox" id="english" name="subscribe" value="yes">
+                <label for="english">English</label>
+                <input type="checkbox" id="Tamil" name="subscribe" value="yes">
+                <label for="Tamil">Tamil</label>
+                <input type="checkbox" id="Telugu" name="subscribe" value="yes">
+                <label for="Telugu">Telugu</label>
+                <input type="checkbox" id="Hindi" name="subscribe" value="yes">
+                <label for="Hindi">Hindi</label>
+
+                <br><input type="submit" value="Search">
+            </form>
+        </section>
+
+
+
+
+
+
+
+
+
+	</main>
+</body>
+</html>
